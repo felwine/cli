@@ -1168,10 +1168,10 @@
   resolved "https://registry.yarnpkg.com/@fal-works/esbuild-plugin-global-externals/-/esbuild-plugin-global-externals-2.1.2.tgz#c05ed35ad82df8e6ac616c68b92c2282bd083ba4"
   integrity sha512-cEee/Z+I12mZcFJshKcCqC8tuX5hG3s+d+9nZ3LabqKF1vKdF41B92pJVCBggjAGORAeOzyyDDKrZwIkLffeOQ==
 
-"@felwine/sdk@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@felwine/sdk/-/sdk-1.0.0.tgz#48ee5be8a0fd0518c9b4b4ae49f33c151828fed3"
-  integrity sha512-yy55r1aKLco5/BVx9WM6cpy6mK+enRwCoMLvx8HGFbc328YhgTO/LC8TWvNLSfSuRCJ7R1r/SZUgtYbHC09jyQ==
+"@felwine/sdk@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@felwine/sdk/-/sdk-1.0.1.tgz#6326199eb202eedea88761f312903a7c9a6b7b3a"
+  integrity sha512-OpONOfmD3pu03kFtTk33vFa/FgpWJYSU4TyVmymSonycx+e2/aHCbqw3Rp5lzZVYGWdHPMwKDYEN7QPvIDVyRA==
   dependencies:
     axios "^1.6.1"
     base64-image-mime "^1.0.2"
@@ -10899,7 +10899,7 @@ micromatch@^4.0.2, micromatch@^4.0.4:
     braces "^3.0.2"
     picomatch "^2.3.1"
 
-"micromatch@github:jonschlinkert/micromatch#2.2.0":
+micromatch@jonschlinkert/micromatch#2.2.0:
   version "2.2.0"
   resolved "https://codeload.github.com/jonschlinkert/micromatch/tar.gz/5017fd78202e04c684cc31d3c2fb1f469ea222ff"
   dependencies:
