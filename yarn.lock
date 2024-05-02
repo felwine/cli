@@ -1173,10 +1173,10 @@
   resolved "https://registry.yarnpkg.com/@fal-works/esbuild-plugin-global-externals/-/esbuild-plugin-global-externals-2.1.2.tgz#c05ed35ad82df8e6ac616c68b92c2282bd083ba4"
   integrity sha512-cEee/Z+I12mZcFJshKcCqC8tuX5hG3s+d+9nZ3LabqKF1vKdF41B92pJVCBggjAGORAeOzyyDDKrZwIkLffeOQ==
 
-"@felwine/sdk@^1.0":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@felwine/sdk/-/sdk-1.0.3.tgz#1358d5a24db176949bc85282cd1bcc1c465c40d7"
-  integrity sha512-2HdrqJrcM8xrL5hzfNPSUUv60lP9jT58GV4hAm4ZGJTrhNSmJdh5AXZxfp4WRvGumRVFme7HbdNbymx/MWUdeQ==
+"@felwine/sdk@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@felwine/sdk/-/sdk-1.0.4.tgz#32b013db59ad854c97ea23b2a77195c5d17dc3d6"
+  integrity sha512-tiCQktk21dZPjjLxjPsYcOW5F2v8F5qb+0pcAtEVRR+keEHLZITh5gFm6DzUGdHOv5N7xxRqGeNp1raOLTmTZg==
   dependencies:
     axios "^1.6.1"
     base64-image-mime "^1.0.2"
