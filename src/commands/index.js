@@ -1,8 +1,8 @@
 
 export default ({
   _clinextType: 'command',
-  name: 'servable',
-  description: 'Servable Framework CLI 🐻',
+  name: 'felwine',
+  description: 'Felwine CLI ✍️',
   questions: [
     {
       name: 'quick',
