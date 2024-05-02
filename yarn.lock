@@ -1173,11 +1173,17 @@
   resolved "https://registry.yarnpkg.com/@fal-works/esbuild-plugin-global-externals/-/esbuild-plugin-global-externals-2.1.2.tgz#c05ed35ad82df8e6ac616c68b92c2282bd083ba4"
   integrity sha512-cEee/Z+I12mZcFJshKcCqC8tuX5hG3s+d+9nZ3LabqKF1vKdF41B92pJVCBggjAGORAeOzyyDDKrZwIkLffeOQ==
 
-"@felwine/sdk@latest":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@felwine/sdk/-/sdk-1.0.5.tgz#8c17d54f59ab2049ecfeaa64bdc06aeff4fa9fe6"
-  integrity sha512-fLE2Etzgfvmy8rhp9/9ZaEdqgXJe+FpsC7uFYH97YHCmwp2USzwmATJzi2nc8zE+D242PDoBXIznuViaQI3NzQ==
+"@felwine/medium-api@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@felwine/medium-api/-/medium-api-1.0.0.tgz#d3fb85185697151e3a0e2db27989c079844a5350"
+  integrity sha512-rWnqW52m2NtTB2sId+uutoVgyI2S9RqUL55gCFqo2j1USmJncnR9cL474aIPTuB+R67i2azJuYMWomnCSA2W3g==
+
+"@felwine/sdk@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@felwine/sdk/-/sdk-1.0.6.tgz#b817db29eaf85c41bcbd2e95db8555d7c44884c2"
+  integrity sha512-l5/S6Y/28CtdEY2OSfOLslVrKfxFcQKXgnqulv2ElpVrK/Q4KpEI5AMv2B25ZZWhEtLJ+nWvfHVkKu+6qfUkXg==
   dependencies:
+    "@felwine/medium-api" "^1.0.0"
     axios "^1.6.1"
     base64-image-mime "^1.0.2"
     dev-to-js "^0.1.2"
