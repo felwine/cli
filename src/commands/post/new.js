@@ -1,4 +1,3 @@
-import ChunkAppContent from '../../lib/chunks/app/content/index.js'
 
 export default ({
   _clinextType: 'command',
@@ -18,11 +17,6 @@ export default ({
   ],
   example: "$0 app new --appName='MyApp' --adapter='authored'",
   handler: async () => {
-    const passed = await ChunkAppContent.ask()
-    if (!passed) {
-      return
-    }
 
-    await ChunkAppContent.write()
   },
 })

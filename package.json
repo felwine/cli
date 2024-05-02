@@ -3,7 +3,6 @@
   "type": "module",
   "version": "0.0.0-development",
   "description": "",
-  "moduleResolution": "bundler",
   "author": {
     "name": "adoucoure",
     "email": "yelounak@gmail.com"
