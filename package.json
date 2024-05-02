@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "bin": {
-    "servable": "src/app.js"
+    "felwine": "src/app.js"
   },
   "source": "src/app.js",
   "exports": {
