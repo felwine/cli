@@ -130,5 +130,132 @@
         "${workspaceFolder}/build/**/*.js"
       ]
     },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Add a new post",
+      "stopOnEntry": false,
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/src/app.js",
+      "args": [
+        "post",
+        "new",
+        "--postTitle",
+        "My new hobby is a genuine one",
+        "--destination",
+        "/Users/anak/YourouNak/development/felwine/cli/__mock__/The Dickens in me",
+        // "--platformToken",
+        // "P?FPOZJEP3232"
+        // "./_archive/main",
+        // //"-q"
+      ],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "envFile": "${workspaceFolder}/.env.development",
+      "runtimeArgs": [
+        // "--trace-warnings",
+        "--require=dotenv/config",
+        "--nolazy",
+        "--expose-gc",
+        "--inspect-brk",
+        "--experimental-modules",
+        "--es-module-specifier-resolution=node",
+        "--experimental-specifier-resolution=node"
+        //"--unhandled-rejections=strict"
+      ],
+      // "preLaunchTask": "tsc: build - tsconfig.json",
+      // "sourceMaps": true,
+      "smartStep": true,
+      "console": "integratedTerminal",
+      "outFiles": [
+        "${workspaceFolder}/build/**/*.js"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Sync",
+      "stopOnEntry": false,
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/src/app.js",
+      "args": [
+        "sync",
+        "--projectPath",
+        "/Users/anak/YourouNak/development/felwine/cli/__mock__/The Dickens in me",
+        // "--platformToken",
+        // "P?FPOZJEP3232"
+        // "./_archive/main",
+        // //"-q"
+      ],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "envFile": "${workspaceFolder}/.env.development",
+      "runtimeArgs": [
+        // "--trace-warnings",
+        "--require=dotenv/config",
+        "--nolazy",
+        "--expose-gc",
+        "--inspect-brk",
+        "--experimental-modules",
+        "--es-module-specifier-resolution=node",
+        "--experimental-specifier-resolution=node"
+        //"--unhandled-rejections=strict"
+      ],
+      // "preLaunchTask": "tsc: build - tsconfig.json",
+      // "sourceMaps": true,
+      "smartStep": true,
+      "console": "integratedTerminal",
+      "outFiles": [
+        "${workspaceFolder}/build/**/*.js"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Add Cloud",
+      "stopOnEntry": false,
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/src/app.js",
+      "args": [
+        "cloud",
+        "add",
+        "--projectPath",
+        "/Users/anak/YourouNak/development/felwine/cli/__mock__/The Dickens in me",
+        // "--platformToken",
+        // "P?FPOZJEP3232"
+        // "./_archive/main",
+        // //"-q"
+      ],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "envFile": "${workspaceFolder}/.env.development",
+      "runtimeArgs": [
+        // "--trace-warnings",
+        "--require=dotenv/config",
+        "--nolazy",
+        "--expose-gc",
+        "--inspect-brk",
+        "--experimental-modules",
+        "--es-module-specifier-resolution=node",
+        "--experimental-specifier-resolution=node"
+        //"--unhandled-rejections=strict"
+      ],
+      // "preLaunchTask": "tsc: build - tsconfig.json",
+      // "sourceMaps": true,
+      "smartStep": true,
+      "console": "integratedTerminal",
+      "outFiles": [
+        "${workspaceFolder}/build/**/*.js"
+      ]
+    },
   ]
 }

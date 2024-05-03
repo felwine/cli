@@ -1,5 +1,5 @@
-import { platform } from "@felwine/sdk"
-// import { platform } from "../../../sdk/src/index.js"
+import { platform, post } from "@felwine/sdk"
+// import { platform, post } from "../../../sdk/src/index.js"
 
 export default ({
   _clinextType: "command",
@@ -12,44 +12,52 @@ export default ({
   ],
   example: "$0 sync",
   handler: async () => {
-    return
+
     await CliNext.prompt.ask([
       {
         name: 'projectPath',
       },
-      {
-        name: 'platformId',
-      },
-      {
-        name: 'platformToken',
-      },
     ])
 
-    const auth = {
-      token: CliNext.payload.platformToken,
-    }
-    const { isValid, error } = await platform.add({
+    let platforms = await platform.list({
       path: CliNext.payload.projectPath,
-      platform: {
-        id: CliNext.payload.platformId,
-        auth
-      }
     })
 
-    await CliNext.store.save({
-      key: `platform_auth_${CliNext.payload.platformId}`,
-      value: JSON.stringify(auth)
-    })
+    if (platforms) {
+      platforms = await Promise.all(platforms.map(async platform => {
 
-    const vv = await CliNext.store.get({
-      key: `platform_auth_${CliNext.payload.platformId}`,
-    })
-
-    if (isValid) {
-      console.log(`${CliNext.payload.platformId} has been added`)
+        let auth = await CliNext.store.get({
+          key: `platform_auth_${platform.id}`,
+        })
+        if (!auth) {
+          return null
+        }
+        auth = JSON.parse(auth)
+        return {
+          ...platform,
+          auth
+        }
+      }))
     }
-    else {
-      console.log(`Could not add platform: ${error.message}`)
+
+    let cloud = await CliNext.store.get({
+      key: `cloud_data`,
+    })
+
+    if (!cloud) {
+      console.log('Please add a cloud CDN host. felwine cloud add')
+      return
     }
+    cloud = JSON.parse(cloud)
+
+    const settings = {
+      platforms,
+      cloud
+    }
+
+    await post.update.processPath({
+      path: CliNext.payload.projectPath,
+      settings
+    })
   },
 })
