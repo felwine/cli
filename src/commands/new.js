@@ -24,8 +24,11 @@ export default ({
     ])
 
     await project.newProject.plain({
-      name: CliNext.payload.name,
+      name: CliNext.payload.projectName,
       path: CliNext.payload.destination,
+      force: true
     })
+
+    console.log(`${projectName} has been created at ${CliNext.payload.destination}`)
   },
 })

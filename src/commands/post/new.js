@@ -15,7 +15,7 @@ export default ({
       validators: [{ id: 'nonempty', params: { maxParams: 12 } }]
     },
   ],
-  example: "$0 app new --appName='MyApp' --adapter='authored'",
+  example: "$0 post new --appName='MyApp' --adapter='authored'",
   handler: async () => {
 
   },

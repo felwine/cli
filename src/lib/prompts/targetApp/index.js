@@ -2,8 +2,8 @@
  * Copyright (C) Servable Community. All rights reserved.
  *--------------------------------------------------------*/
 import chalk from "chalk"
-import isFolderServableApp from "./lib/isFolderServableApp.js"
-import isFolderServableAppSync from "./lib/isFolderServableAppSync.js"
+import isFolderProject from "./lib/isFolderProject.js"
+import isFolderProjectSync from "./lib/isFolderProjectSync.js"
 import getServablePackage from "./lib/getServablePackage.js"
 import path from "path"
 import askForGeneric from "../utils/askForGeneric.js"
@@ -25,7 +25,7 @@ export default async (props) => {
 
     const originalDestinationPath = toolbox.originalDestinationPath
 
-    if (await isFolderServableApp(originalDestinationPath)) {
+    if (await isFolderProject(originalDestinationPath)) {
         const config = await getServablePackage(originalDestinationPath)
         payload.desiredWriteDestinationPathAbsolute = originalDestinationPath
         payload.desiredWriteDestinationPath = payload.desiredWriteDestinationPathAbsolute.split(path.sep).pop()
@@ -58,7 +58,7 @@ export default async (props) => {
                 if (!name || !name.length) {
                     return false
                 }
-                const isServable = isFolderServableAppSync(name)
+                const isServable = isFolderProjectSync(name)
                 return isServable
             },
             transformer: (name,) => {
@@ -68,7 +68,7 @@ export default async (props) => {
 
                 const _name = name.split(path.sep).pop()
                 //const isServable = (_name && _name.length && !['.'].includes(_name[0]))
-                const isServable = isFolderServableAppSync(name)
+                const isServable = isFolderProjectSync(name)
                 return isServable ? `${_name} (Servable project) ` : `${_name} ('N/A')`
             }
         }

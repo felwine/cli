@@ -4,7 +4,7 @@ export default ({
   type: 'string',
   message: "Choose a Servable app",
   promptType: "file-tree-selection",
-  name: "appPath",
+  name: "projectPath",
   onlyShowDir: true,
   root: "./",
   onlyShowValid: false,
@@ -13,11 +13,11 @@ export default ({
   hideChildrenOfValid: true,
   hideValidationErrorMessage: true,
   validators: [{
-    id: 'isServableApp'
+    id: 'isFolderProject'
   }],
   transformers:
     [{
-      id: 'isFolderServableApp',
+      id: 'isFolderProject',
       modes: ['display'],
     }]
 })

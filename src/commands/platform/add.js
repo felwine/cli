@@ -1,106 +1,50 @@
-import * as dotenv from 'dotenv'
-import axios from "axios"
-dotenv.config()
+// import { platform } from "@felwine/sdk"
+import { platform } from "../../../../sdk/src/index.js"
 
 export default ({
-  _clinextType: 'command',
+  _clinextType: "command",
   name: 'add',
-  description: `Add a platform`,
+  description: 'Add a platform',
   questions: [
     {
-      name: 'registryConfirmLogout',
-      message: "Logout of Servable",
-      promptType: 'confirm',
-      defaultValue: false,
-      type: 'boolean'
+      name: 'projectPath',
+    },
+    {
+      name: 'platformId',
+    },
+    {
+      name: 'platformToken',
     },
   ],
-  example: "$0 registry auth logout",
-  handler: async ({ toolbox, }) => {
-
-    const domain = toolbox.env.SERVABLE_API_HOST
-
-    const username = await toolbox.store.get({
-      key: 'registryUsername',
-      domain
-    })
-    let sessionToken = await toolbox.store.get({
-      key: 'registrySessionToken',
-      domain
-    })
-
-    if (!username || !sessionToken) {
-      console.log("You are not currently logged in. Quitting")
-      return true
-    }
-
-    await toolbox.prompt.ask([
+  example: "$0 project new",
+  handler: async () => {
+    await CliNext.prompt.ask([
       {
-        name: 'registryConfirmLogout',
+        name: 'projectPath',
+      },
+      {
+        name: 'platformId',
+      },
+      {
+        name: 'platformToken',
       },
     ])
 
-    if (!toolbox.payload.registryConfirmLogout) {
-      console.log("Quitting")
-      return
-    }
-
-    console.log("Logging out")
-    const result = await doLogout({
-      username: toolbox.payload.registryUsername,
-      sessionToken: toolbox.payload.registrySessionToken
-    })
-
-    if (!result) {
-      toolbox.print.info(`Could not connect to the Servable registry. Please try again later`)
-      return false
-    }
-
-    toolbox.payload.registrySessionToken = null
-    toolbox.payload.registryPassword = null
-    toolbox.payload.registryUsername = null
-
-    await toolbox.store.save({
-      key: 'registryUsername',
-      domain,
-      value: null
-    })
-    await toolbox.store.save({
-      key: 'registrySessionToken',
-      domain,
-      value: null
-    })
-    await toolbox.store.save({
-      key: 'registryPassword',
-      domain,
-      value: null
-    })
-
-    return true
-  },
-})
-
-
-const doLogout = async ({ username, password, }) => {
-  const url = `${CliNext.env.SERVABLE_API_HOST}/user/logout`
-
-  try {
-    const result = await axios({
-      method: "POST",
-      url,
-      headers: {
-        "content-type": "application/json",
-      },
-      data: {
-        username,
-        password,
+    const { isValid, error } = await platform.add({
+      path: CliNext.payload.projectPath,
+      platform: {
+        id: CliNext.payload.platformId,
+        auth: {
+          token: CliNext.payload.platformToken,
+        }
       }
     })
 
-    return result.data
-  } catch (e) {
-    console.info(e)
-  }
-
-  return null
-}
+    if (isValid) {
+      console.log(`${CliNext.payload.platformId} has been added`)
+    }
+    else {
+      console.log(`Could not add platform: ${error.message}`)
+    }
+  },
+})
