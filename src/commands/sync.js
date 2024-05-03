@@ -1,23 +1,18 @@
 import { platform } from "@felwine/sdk"
-// import { platform } from "../../../../sdk/src/index.js"
+// import { platform } from "../../../sdk/src/index.js"
 
 export default ({
   _clinextType: "command",
-  name: 'add',
-  description: 'Add a platform',
+  name: 'sync',
+  description: 'Sync a project',
   questions: [
     {
       name: 'projectPath',
     },
-    {
-      name: 'platformId',
-    },
-    {
-      name: 'platformToken',
-    },
   ],
-  example: "$0 project new",
+  example: "$0 sync",
   handler: async () => {
+    return
     await CliNext.prompt.ask([
       {
         name: 'projectPath',
@@ -44,6 +39,10 @@ export default ({
     await CliNext.store.save({
       key: `platform_auth_${CliNext.payload.platformId}`,
       value: JSON.stringify(auth)
+    })
+
+    const vv = await CliNext.store.get({
+      key: `platform_auth_${CliNext.payload.platformId}`,
     })
 
     if (isValid) {

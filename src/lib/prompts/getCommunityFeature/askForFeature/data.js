@@ -4,39 +4,39 @@ export default [
         "name": "Pageable",
         "version": "0.0.1",
         "apiVersion": "1.0.0",
-        "description": "Adds pageing capacity to a Servable app",
+        "description": "Adds pageing capacity to a Felwine app",
         "packages": [
             {
-                "id": "@servable-community/pageable-parse-server",
+                "id": "@felwine-community/pageable-parse-server",
                 "description": "",
                 "type": "main",
                 "components": ["server"],
-                "url": "https://github.com/servable-community/pageable-parse-server.git"
+                "url": "https://github.com/felwine-community/pageable-parse-server.git"
             },
             {
-                "id": "@servable-community/pageable-parse-classes",
+                "id": "@felwine-community/pageable-parse-classes",
                 "description": "",
                 "type": "classes",
                 "components": ["server"]
             },
         ],
         "author": {
-            "name": "Servable Community",
+            "name": "Felwine Community",
             "email": "servablecommunity@gmail.com",
             "url": "https://servablecommunity.com/"
         },
         "keywords": [
             "node",
             "features",
-            "servable",
+            "felwine",
             "yeoman-toolbox"
         ],
         "repository": {
             "type": "git",
-            "url": "https://github.com/servable-community/toolbox-servable.git"
+            "url": "https://github.com/felwine-community/toolbox-felwine.git"
         },
         "bugs": {
-            "url": "https://github.com/servable-community/toolbox-servable/issues"
+            "url": "https://github.com/felwine-community/toolbox-felwine/issues"
         },
         "main": "./toolboxs/app/index.js",
         "homepage": "http://servablecommunity.com",
@@ -51,7 +51,7 @@ export default [
                 "name": "pageable",
                 "slug": "pg",
                 // module: {
-                //     '@servable-community/publishable-parse-server': '*'
+                //     '@felwine-community/publishable-parse-server': '*'
                 // },
                 // version: '*',
                 "params": {
@@ -85,15 +85,15 @@ export default [
         "id": "emailable",
         "name": "Emailable",
         "version": "0.0.1",
-        "description": "Adds email capacity to a Servable app",
+        "description": "Adds email capacity to a Felwine app",
         "homepage": "http://servablecommunity.com",
         "license": "MIT",
         "icon": "https://cdn3d.iconscout.com/3d/free/preview/free-toffee-4356774-3618919.png?f=avif&h=1400",
         "author": {
-            "name": "Servable Community",
+            "name": "Felwine Community",
             "email": "servablecommunity@gmail.com",
             "url": "https://servablecommunity.com/",
-            "github": "https://github.com/servable-community"
+            "github": "https://github.com/felwine-community"
         },
         "keywords": [
             "emailable",
@@ -103,13 +103,13 @@ export default [
         },
         "packages": [
             {
-                "id": "@servable-community/servable-emailable",
+                "id": "@felwine-community/felwine-emailable",
                 "description": "",
                 "type": "main",
                 "components": ["server"],
-                "url": "https://github.com/servable-community/servable-publishable.git",
+                "url": "https://github.com/felwine-community/felwine-publishable.git",
                 "engines": {
-                    "@servable/engine": ">=1.0"
+                    "@felwine/engine": ">=1.0"
                 },
                 "usage": {
                     "howto": "Fill the API key",
@@ -208,14 +208,14 @@ export default [
         "name": "Slugable",
         "packages": [
             {
-                "id": "@servable-community/slugable",
+                "id": "@felwine-community/slugable",
                 "description": "",
                 "type": "main"
             }
         ],
-        "author": "Servable Community",
+        "author": "Felwine Community",
         "email": "servablecommunity@gmail.com",
-        "description": "Adds slug capacity to a Servable app",
+        "description": "Adds slug capacity to a Felwine app",
         "icon": "https://cdn3d.iconscout.com/3d/free/preview/free-toffee-4356774-3618919.png?f=avif&h=1400",
     },
     {
@@ -223,14 +223,14 @@ export default [
         "name": "Reviewable",
         "packages": [
             {
-                "id": "servable-reviewable",
+                "id": "felwine-reviewable",
                 "description": "",
                 "type": "main"
             }
         ],
-        "author": "Servable Community",
+        "author": "Felwine Community",
         "email": "servablecommunity@gmail.com",
-        "description": "Adds review capacity to a Servable app",
+        "description": "Adds review capacity to a Felwine app",
         "icon": "https://cdn3d.iconscout.com/3d/free/preview/free-toffee-4356774-3618919.png?f=avif&h=1400",
     },
     {
@@ -238,14 +238,14 @@ export default [
         "name": "Publishable",
         "packages": [
             {
-                "id": "servable-publishable",
+                "id": "felwine-publishable",
                 "description": "",
                 "type": "main"
             }
         ],
-        "author": "Servable Community",
+        "author": "Felwine Community",
         "email": "servablecommunity@gmail.com",
-        "description": "Adds review capacity to a Servable app",
+        "description": "Adds review capacity to a Felwine app",
         "icon": "https://cdn3d.iconscout.com/3d/free/preview/free-toffee-4356774-3618919.png?f=avif&h=1400",
     }
 ]

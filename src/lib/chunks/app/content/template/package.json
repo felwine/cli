@@ -16,7 +16,7 @@
   ],
   "main": "lib/index.js",
   "keywords": [
-    "servable",
+    "felwine",
     "parse",
     "parse-server"
   ],
@@ -25,7 +25,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@servable/server": "^1"
+    "@felwine/server": "^1"
   },
   "scripts": {
     "start": "node --require=dotenv/config --es-module-specifier-resolution=node --experimental-specifier-resolution=node index.js",

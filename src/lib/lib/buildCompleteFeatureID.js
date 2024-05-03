@@ -1,5 +1,5 @@
 
 
 export default featureId => {
-    return featureId.indexOf('servable-') === 0 ? `${featureId}` : `servable-${featureId}`
+    return featureId.indexOf('felwine-') === 0 ? `${featureId}` : `felwine-${featureId}`
 }

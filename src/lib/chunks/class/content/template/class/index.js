@@ -1,5 +1,5 @@
 
-export default class <%= className %> extends Servable.App.Object {
+export default class <%= className %> extends Felwine.App.Object {
     constructor() {
         super('<%= className %>')
     }

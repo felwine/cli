@@ -1,8 +1,8 @@
 /*---------------------------------------------------------
- * Copyright (C) Servable Community. All rights reserved.
+ * Copyright (C) Felwine Community. All rights reserved.
  *--------------------------------------------------------*/
 
-// import { validateFeature } from '@servable/tools'
+// import { validateFeature } from '@felwine/tools'
 
 export default async (props) => {
     const { toolbox, payload } = props
@@ -10,7 +10,7 @@ export default async (props) => {
 
     return { isValid: true, message: null }
     // try {
-    //     const configPath = `${appPath}/servable.config.js`
+    //     const configPath = `${appPath}/felwine.config.js`
     //     const servableConfig = (await import(configPath)).default
     //     // const servableConfig = JSON.parse(configRawdata)
     //     if (!servableConfig) {

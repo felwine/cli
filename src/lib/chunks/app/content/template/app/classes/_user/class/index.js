@@ -1,2 +1,2 @@
-export default class _User extends Servable.App.Object {
+export default class _User extends Felwine.App.Object {
 }

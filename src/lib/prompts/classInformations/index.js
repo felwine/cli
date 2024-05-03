@@ -1,5 +1,5 @@
 /*---------------------------------------------------------
- * Copyright (C) Servable Community. All rights reserved.
+ * Copyright (C) Felwine Community. All rights reserved.
  *--------------------------------------------------------*/
 
 import path from "path"
@@ -14,7 +14,7 @@ export default async (props) => {
     toolbox.ui.drawSectionHeader({
         toolbox,
         title: `Class informations 🚀`,
-        subTitle: `Servable required class informations.`
+        subTitle: `Felwine required class informations.`
     })
 
     const ownClasses = await featureSchemaOwnClasses(payload.targetFeaturePath)

@@ -1,5 +1,5 @@
 /*---------------------------------------------------------
- * Copyright (C) Servable Community. All rights reserved.
+ * Copyright (C) Felwine Community. All rights reserved.
  *--------------------------------------------------------*/
 
 
@@ -17,7 +17,7 @@ export default async (props) => {
     toolbox.ui.drawSectionHeader({
         toolbox,
         title: `App database 💿`,
-        subTitle: `Servable handles both mongodb and PostGreSQL databases.`
+        subTitle: `Felwine handles both mongodb and PostGreSQL databases.`
     })
 
     await askForGeneric({

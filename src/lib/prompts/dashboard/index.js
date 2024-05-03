@@ -1,5 +1,5 @@
 /*---------------------------------------------------------
- * Copyright (C) Servable Community. All rights reserved.
+ * Copyright (C) Felwine Community. All rights reserved.
  *--------------------------------------------------------*/
 
 import validateNumber from "../../lib/validateNumber.js"
@@ -15,8 +15,8 @@ export default async (props) => {
 
     toolbox.ui.drawSectionHeader({
         toolbox,
-        title: `Servable dashboard 🚀`,
-        subTitle: `Servable dashboard helps you visualize and edit the app's data and configuration.`
+        title: `Felwine dashboard 🚀`,
+        subTitle: `Felwine dashboard helps you visualize and edit the app's data and configuration.`
     })
 
     if (!force) {

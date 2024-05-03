@@ -26,4 +26,3 @@ _archive
 **/*/_archive
 mock
 .env.development
-.vscode

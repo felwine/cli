@@ -27,7 +27,7 @@ export default async () => {
   })
 
   if (!result) {
-    CliNext.print.info(`Could not connect to the Servable registry. Please try again later`)
+    CliNext.print.info(`Could not connect to the Felwine registry. Please try again later`)
     return false
   }
 

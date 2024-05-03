@@ -1,5 +1,5 @@
 /*---------------------------------------------------------
- * Copyright (C) Servable Community. All rights reserved.
+ * Copyright (C) Felwine Community. All rights reserved.
  *--------------------------------------------------------*/
 
 import askForGenericBulk from "../../../../../prompts/utils/askForGenericBulk.js"
@@ -10,7 +10,7 @@ import saveValueToStore from "../../../../../lib/store/save.js"
 
 export default async (props) => {
     const { toolbox, payload, initiate = true } = props
-    const domain = "servable.app"
+    const domain = "felwine.app"
     toolbox.log('domain', domain)
     const username = await getValueFromStore({
         key: 'username',
@@ -67,7 +67,7 @@ export default async (props) => {
     })
 
     if (!result) {
-        toolbox.log(`Could not connect to the Servable registry. Please try again later`)
+        toolbox.log(`Could not connect to the Felwine registry. Please try again later`)
         return false
     }
 

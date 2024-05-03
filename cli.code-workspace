@@ -4,8 +4,13 @@
       "path": "."
     },
     {
+      "name": "sdk",
       "path": "../sdk/src"
-    }
+    },
+    // {
+    //   "name": "CliNext SDK",
+    //   "path": "../../clinext/sdk/src"
+    // }
   ],
   "settings": {
     "workbench.colorCustomizations": {

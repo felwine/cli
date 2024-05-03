@@ -1,5 +1,5 @@
 /*---------------------------------------------------------
- * Copyright (C) Servable Community. All rights reserved.
+ * Copyright (C) Felwine Community. All rights reserved.
  *--------------------------------------------------------*/
 
 import validateNumber from "../../lib/validateNumber.js"
@@ -15,7 +15,7 @@ export default async (props) => {
     toolbox.ui.drawSectionHeader({
         toolbox,
         title: `Bucket storage 📂`,
-        subTitle: `Servable uses a bucket storage for files.`
+        subTitle: `Felwine uses a bucket storage for files.`
     })
 
     if (!force) {

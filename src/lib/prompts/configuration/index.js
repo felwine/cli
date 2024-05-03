@@ -1,5 +1,5 @@
 /*---------------------------------------------------------
- * Copyright (C) Servable Community. All rights reserved.
+ * Copyright (C) Felwine Community. All rights reserved.
  *--------------------------------------------------------*/
 
 
@@ -15,7 +15,7 @@ export default async (props) => {
   toolbox.ui.drawSectionHeader({
     toolbox,
     title: `Configurations ⚙`,
-    subTitle: `Servable can be used in a staging or production configurations, or both at the same time.`
+    subTitle: `Felwine can be used in a staging or production configurations, or both at the same time.`
   })
 
   // await askForState(props)

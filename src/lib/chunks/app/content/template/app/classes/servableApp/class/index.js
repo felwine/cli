@@ -1,4 +1,4 @@
 
-export default class ServableApp extends Servable.App.Object {
+export default class ServableApp extends Felwine.App.Object {
 
 }

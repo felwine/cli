@@ -10,7 +10,7 @@ export default async (props = {}) => {
     source: '**/*',
     data: {
       ...payload,
-      appDescription: "My servable app",
+      appDescription: "My felwine app",
     }
   })
 
@@ -20,7 +20,7 @@ export default async (props = {}) => {
       text: payload._adapter.dockercompose,
       data: {
         ...payload,
-        appDescription: "My servable app",
+        appDescription: "My felwine app",
         maxUploadSize: '100mb',
       }
     })

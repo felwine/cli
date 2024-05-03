@@ -3,7 +3,7 @@ import internal from './internal.json' assert { type: "json" }
 
 export default async () => {
   //TODO: include count
-  const config = await Servable.App.Config.get()
+  const config = await Felwine.App.Config.get()
   if (config && config.get('_bootstrapped')) {
     //console.log('Seeding 🍄 > Config is already present.')
     return
@@ -15,7 +15,7 @@ export default async () => {
 const doFill = async () => {
   try {
     const secrets = internal.reduce((a, v) => ({ ...a, [v]: true }), {})
-    await Servable.App.Config.save(data, secrets)
+    await Felwine.App.Config.save(data, secrets)
     //console.log('Seeding 🍄 > Config has been bootstraped.')
   } catch (e) {
     console.error('Seeding 🍄 > Config has not been bootstraped.', e)

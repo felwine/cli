@@ -9,7 +9,7 @@ export default (folder) => {
             return false
         }
 
-        const targetPath = `${folder}/servable.config.js`
+        const targetPath = `${folder}/felwine.config.js`
         const exists = fs.existsSync(targetPath)
         return exists
     } catch (e) {

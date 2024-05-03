@@ -2,7 +2,7 @@
 export default ({
   _clinextType: "question",
   type: 'string',
-  message: "Choose a Servable app",
+  message: "Choose a Felwine app",
   promptType: "file-tree-selection",
   name: "projectPath",
   onlyShowDir: true,

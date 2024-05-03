@@ -1,5 +1,5 @@
 /*---------------------------------------------------------
- * Copyright (C) Servable Community. All rights reserved.
+ * Copyright (C) Felwine Community. All rights reserved.
  *--------------------------------------------------------*/
 
 import askForAppName from "./askForAppName.js"
@@ -18,7 +18,7 @@ export default async (props) => {
   toolbox.ui.drawSectionHeader({
     toolbox,
     title: `App informations 🚀`,
-    subTitle: `Servable required general informations.`
+    subTitle: `Felwine required general informations.`
   })
 
   await askForAppName(props)

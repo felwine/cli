@@ -23,7 +23,7 @@
     "url": ""
   },
   "keywords": [
-    "servable",
+    "felwine",
     "feature",
     "parse-server",
     "expressjs"
@@ -35,7 +35,7 @@
   },
   "homepage": "<%= repositoryUrl %>#readme",
   "peerDependencies": {
-    "@servable/engine": "*"
+    "@felwine/engine": "*"
   },
   "scripts": {
     "semantic-release": "semantic-release",
@@ -50,9 +50,9 @@
     "test:unit": "yarn node --require=dotenv/config --experimental-vm-modules --experimental-specifier-resolution=node $(yarn bin jest) --config ./jest.config.json",
     "test:watch": "react-scripts test --env=jsdom",
     "prepare": "husky install",
-    "servable:license": "cp ./src/LICENSE ./LICENSE 2>/dev/null || :",
-    "servable:readme": "node -e 'import(\"./node_modules/@servable/tools/src/index.js\").then(m => m.generateGithubReadme({path: (process.cwd() + \"/src\"), write: true, targetPath: (process.cwd() + \"/README.md\" )}))'",
-    "servable:document": "node -e 'import(\"./node_modules/@servable/tools/src/index.js\").then(m => m.documentFeature({path: (process.cwd() + \"/src\"), write: true}))'"
+    "felwine:license": "cp ./src/LICENSE ./LICENSE 2>/dev/null || :",
+    "felwine:readme": "node -e 'import(\"./node_modules/@felwine/tools/src/index.js\").then(m => m.generateGithubReadme({path: (process.cwd() + \"/src\"), write: true, targetPath: (process.cwd() + \"/README.md\" )}))'",
+    "felwine:document": "node -e 'import(\"./node_modules/@felwine/tools/src/index.js\").then(m => m.documentFeature({path: (process.cwd() + \"/src\"), write: true}))'"
   },
   "prettier": {
     "printWidth": 80,
@@ -91,7 +91,6 @@
     "prettier": "^2.0.4",
     "semantic-release": "^22.0.5",
     "size-limit": "^4.10.2",
-    "@servable/tools": "^1",
     "husky": "^8.0.3"
   }
 }

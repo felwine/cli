@@ -6,7 +6,7 @@ export default async () => {
   CliNext.ui.drawSectionHeader({
     type: 'h2',
     title: `App informations 🚀`,
-    subTitle: `Servable required general informations.`
+    subTitle: `Felwine required general informations.`
   })
 
   await CliNext.prompt.ask([

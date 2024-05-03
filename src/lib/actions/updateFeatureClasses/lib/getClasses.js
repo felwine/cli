@@ -8,7 +8,7 @@ export default async (folder) => {
             return true
         }
 
-        const targetPath = `${folder}/servable.config.js`
+        const targetPath = `${folder}/felwine.config.js`
         const rawdata = await fs.promises.readFile(targetPath, 'utf8')
         // const data = JSON.parse(rawdata)
         return rawdata

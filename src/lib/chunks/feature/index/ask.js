@@ -54,7 +54,7 @@ export default async () => {
   }
 
   // if (!CliNext.payload.featureEngine) {
-  //   CliNext.payload.featureHomepageUrl = "@servable-community/parse-server-engine"
+  //   CliNext.payload.featureHomepageUrl = "@felwine-community/parse-server-engine"
   // }
 
   if (!CliNext.payload.featureIconUrl) {

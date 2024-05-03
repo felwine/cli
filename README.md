@@ -1,13 +1,13 @@
-# Servable CLI
+# Felwine CLI
 
 > [!WARNING]
-> Servable is still experimental and its api may change in the future.
+> Felwine is still experimental and its api may change in the future.
 
 ![logo](/static/img/icon.png)
 
-[![npm Package](https://img.shields.io/npm/v/toolbox-servable.svg?style=flat-square)](https://www.npmjs.org/package/toolbox-servable)
-[![NPM Downloads](https://img.shields.io/npm/dm/toolbox-servable.svg)](https://npmjs.org/package/toolbox-servable)
-[![Build Status](https://github.com/servable-community/toolbox-servable/actions/workflows/release.yml/badge.svg)](https://github.com/servable-community/toolbox-servable/actions/tests.yml)
+[![npm Package](https://img.shields.io/npm/v/toolbox-felwine.svg?style=flat-square)](https://www.npmjs.org/package/toolbox-felwine)
+[![NPM Downloads](https://img.shields.io/npm/dm/toolbox-felwine.svg)](https://npmjs.org/package/toolbox-felwine)
+[![Build Status](https://github.com/felwine-community/toolbox-felwine/actions/workflows/release.yml/badge.svg)](https://github.com/felwine-community/toolbox-felwine/actions/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -28,7 +28,7 @@ yarn global add authored
 To launch the cli simply type:
 
 ```bash
-servable
+felwine
 ```
 
 ![The command toolbox](/static/img/s1.png)
@@ -37,11 +37,11 @@ servable
 
 ```
 Usage:
-  servable:app [<destination>] [options]
+  felwine:app [<destination>] [options]
 
 
 ```
 
 
 
-A full documentation is available at [https://docs.servable.app](https://docs.servable.app)
+A full documentation is available at [https://docs.felwine.app](https://docs.felwine.app)

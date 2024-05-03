@@ -1,5 +1,5 @@
 /*---------------------------------------------------------
- * Copyright (C) Servable Community. All rights reserved.
+ * Copyright (C) Felwine Community. All rights reserved.
  *--------------------------------------------------------*/
 
 import drawSectionHeader from "../../lib/draw/drawSectionHeader.js"
@@ -15,7 +15,7 @@ export default async (props) => {
   drawSectionHeader({
     generator,
     title: `Class informations 🚀`,
-    subTitle: `Servable required class informations.`
+    subTitle: `Felwine required class informations.`
   })
 
   const ownClasses = await featureSchemaOwnClasses(payload.targetFeaturePath)

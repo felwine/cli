@@ -3,7 +3,7 @@ PUBLIC_SERVER_URL=http://localhost:<%= appPort %>
 SERVER_PORT=<%= appPort %>
 
 # -----------------------------
-# Servable environment variables
+# Felwine environment variables
 # -----------------------------
 
 SERVABLE_APP_ID=<%= appId %>
