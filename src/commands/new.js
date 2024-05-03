@@ -29,6 +29,6 @@ export default ({
       force: true
     })
 
-    console.log(`${projectName} has been created at ${CliNext.payload.destination}`)
+    console.log(`${CliNext.payload.projectName} has been created at ${CliNext.payload.destination}`)
   },
 })
