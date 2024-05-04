@@ -9,6 +9,7 @@ author:
   id: ""
   name: ""
 platforms:
+  - id: medium
   - id: devto
 clouds:
   - id: minio

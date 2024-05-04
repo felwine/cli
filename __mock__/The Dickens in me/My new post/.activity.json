@@ -3,6 +3,22 @@
   "status": "published",
   "platforms": [
     {
+      "id": "medium",
+      "sha": "984dc6b8959a96ad0784cc31a3a912f9d784d60a584700c43ae092660804a254",
+      "post": {
+        "id": "87fea47a0304",
+        "title": "My new post",
+        "authorId": "1f2e4d8753ecbe41d0b7222dce14b405c1d06578618e225b0b9932cf767c924aa",
+        "url": "https://medium.com/@adoucoure/87fea47a0304",
+        "canonicalUrl": "",
+        "publishStatus": "draft",
+        "license": "all-rights-reserved",
+        "licenseUrl": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
+        "tags": []
+      },
+      "updatedAt": "2024-05-04T21:09:25.382Z"
+    },
+    {
       "id": "devto",
       "sha": "984dc6b8959a96ad0784cc31a3a912f9d784d60a584700c43ae092660804a254",
       "status": "draft",
