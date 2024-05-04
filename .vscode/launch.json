@@ -7,7 +7,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Create a new Felwine project",
+      "name": "Create a new project",
       "stopOnEntry": false,
       "skipFiles": [
         "<node_internals>/**"
@@ -49,7 +49,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Add a platform to a Felwine project",
+      "name": "Add a platform",
       "stopOnEntry": false,
       "skipFiles": [
         "<node_internals>/**"
@@ -59,7 +59,7 @@
         "platform",
         "add",
         "--platformId",
-        "medium",
+        "devto",
         "--projectPath",
         "/Users/anak/YourouNak/development/felwine/cli/__mock__/The Dickens in me",
         // "--platformToken",
@@ -93,7 +93,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "List project platforms",
+      "name": "List platforms",
       "stopOnEntry": false,
       "skipFiles": [
         "<node_internals>/**"
@@ -133,7 +133,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Add a new post",
+      "name": "Create a new post",
       "stopOnEntry": false,
       "skipFiles": [
         "<node_internals>/**"
@@ -218,7 +218,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Add Cloud",
+      "name": "Add a cloud",
       "stopOnEntry": false,
       "skipFiles": [
         "<node_internals>/**"

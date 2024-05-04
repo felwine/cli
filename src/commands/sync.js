@@ -40,19 +40,19 @@ export default ({
       }))
     }
 
-    let cloud = await CliNext.store.get({
+    let clouds = await CliNext.store.get({
       key: `cloud_data`,
     })
 
-    if (!cloud) {
+    if (!clouds) {
       console.log('Please add a cloud CDN host. felwine cloud add')
       return
     }
-    cloud = JSON.parse(cloud)
+    clouds = JSON.parse(clouds)
 
     const settings = {
       platforms,
-      cloud
+      clouds
     }
 
     await post.update.processPath({

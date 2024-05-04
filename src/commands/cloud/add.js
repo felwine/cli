@@ -1,4 +1,5 @@
-// import { platform } from "../../../../sdk/src/index.js"
+// import { cloud as cloudOps } from "../../../../sdk/src/index.js"
+import { cloud as cloudOps } from "@felwine/sdk"
 
 export default ({
   _clinextType: "command",
@@ -48,8 +49,8 @@ export default ({
       }
     ])
 
-    const data = {
-      type: CliNext.payload.cloudType,
+    const cloud = {
+      id: CliNext.payload.cloudType,
       auth: {
         endPoint: CliNext.payload.cloudEndPoint,
         accessKey: CliNext.payload.cloudAccessKey,
@@ -58,11 +59,35 @@ export default ({
       }
     }
 
-    await CliNext.store.save({
-      key: `cloud_data`,
-      value: JSON.stringify(data)
+    const { isValid, error } = await cloudOps.add({
+      path: CliNext.payload.projectPath,
+      cloud
     })
 
-    console.log(`${CliNext.payload.cloudType} has been added`)
+
+    const storeKey = `cloud_data`
+
+    let clouds = await CliNext.store.get({ key: storeKey })
+    if (!clouds) {
+      clouds = []
+    }
+    else {
+      clouds = JSON.parse(clouds)
+    }
+
+    clouds = clouds.filter(a => a.id !== cloud.id)
+    clouds.push(cloud)
+
+    await CliNext.store.save({
+      key: storeKey,
+      value: JSON.stringify(clouds)
+    })
+
+    if (isValid) {
+      console.log(`${CliNext.payload.cloudType} has been added`)
+    }
+    else {
+      console.log(`Could not add platform: ${error.message}`)
+    }
   },
 })

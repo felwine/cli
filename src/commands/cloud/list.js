@@ -1,4 +1,5 @@
-// import { platform } from "@felwine/sdk"
+import { cloud as cloudOps } from "@felwine/sdk"
+// import { cloud as cloudOps } from "../../../../sdk/src/index.js"
 
 export default ({
   _clinextType: "command",
@@ -17,10 +18,10 @@ export default ({
       },
     ])
 
-    // const platforms = await platform.list({
-    //   path: CliNext.payload.projectPath,
-    // })
+    const clouds = await cloudOps.list({
+      path: CliNext.payload.projectPath,
+    })
 
-    // console.log(platforms ? platforms.map(p => p.id).join(', ') : "No platform found")
+    console.log(clouds ? clouds.map(p => p.id).join(', ') : "No cloud found")
   },
 })
