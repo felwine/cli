@@ -30,7 +30,7 @@ export default ({
     ])
 
     await post.create({
-      name: CliNext.payload.postTitle,
+      title: CliNext.payload.postTitle,
       path: CliNext.payload.destination,
       force: true
     })

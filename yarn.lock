@@ -1179,10 +1179,10 @@
   resolved "https://registry.yarnpkg.com/@felwine/medium-api/-/medium-api-1.0.0.tgz#d3fb85185697151e3a0e2db27989c079844a5350"
   integrity sha512-rWnqW52m2NtTB2sId+uutoVgyI2S9RqUL55gCFqo2j1USmJncnR9cL474aIPTuB+R67i2azJuYMWomnCSA2W3g==
 
-"@felwine/sdk@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@felwine/sdk/-/sdk-1.1.4.tgz#e261cc8dfce41957dbfc18a7f25dc0a7470797d3"
-  integrity sha512-pkbImUQ7euF9Co1onplHEgH9Un3iomL1bbeGGeAc8ssD4dYJjBOw6jX4QgBUQDSkLDxyJK4+CL9HzHQ0UQIzsA==
+"@felwine/sdk@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@felwine/sdk/-/sdk-1.2.0.tgz#a48bf1a58d92f975c68397203580995dc2286a0b"
+  integrity sha512-3AesLP+GMON2JWcnyjG9gz7+yJZQ402M0YraXESK2OSatbghbAKMgW8u0Rw2raHyyxwZuzGXSmn6RqHpMy+dlQ==
   dependencies:
     "@felwine/medium-api" "^1.0.0"
     axios "^1.6.1"

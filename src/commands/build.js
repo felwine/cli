@@ -19,7 +19,7 @@ export default ({
       },
     ])
 
-    await post.build.processPath.processPath({
+    await post.build.processPath({
       path: CliNext.payload.destination,
     })
 
