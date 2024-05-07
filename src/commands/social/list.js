@@ -4,13 +4,13 @@ import { cloud as cloudOps } from "@felwine/sdk"
 export default ({
   _clinextType: "command",
   name: 'list',
-  description: 'List project cdns',
+  description: 'List project socials',
   questions: [
     {
       name: 'projectPath',
     },
   ],
-  example: "$0 cloud list",
+  example: "$0 social list",
   handler: async () => {
     await CliNext.prompt.ask([
       {
