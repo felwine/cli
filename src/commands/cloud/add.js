@@ -24,7 +24,12 @@ export default ({
     {
       name: 'cloudAccessKey',
     },
-
+    {
+      name: 'bunnyPullZone',
+    },
+    {
+      name: 'bunnyStorageZoneName',
+    },
   ],
   example: "$0 cloud new",
   handler: async () => {
@@ -35,35 +40,68 @@ export default ({
       {
         name: 'cloudType',
       },
-      {
-        name: 'cloudBucketName',
-      },
-      {
-        name: 'cloudEndPoint',
-      },
-      {
-        name: 'cloudSecretKey',
-      },
-      {
-        name: 'cloudAccessKey'
-      }
     ])
 
-    const cloud = {
+    let cloud = {
       id: CliNext.payload.cloudType,
-      auth: {
-        endPoint: CliNext.payload.cloudEndPoint,
-        accessKey: CliNext.payload.cloudAccessKey,
-        secretKey: CliNext.payload.cloudSecretKey,
-        bucketName: CliNext.payload.cloudBucketName
+    }
+    switch (CliNext.payload.cloudType) {
+      case 'minio': {
+        await CliNext.prompt.ask([
+          {
+            name: 'cloudBucketName',
+          },
+          {
+            name: 'cloudEndPoint',
+          },
+          {
+            name: 'cloudSecretKey',
+          },
+          {
+            name: 'cloudAccessKey'
+          }
+        ])
+        cloud = {
+          ...cloud,
+          auth: {
+            endPoint: CliNext.payload.cloudEndPoint,
+            accessKey: CliNext.payload.cloudAccessKey,
+            secretKey: CliNext.payload.cloudSecretKey,
+            bucketName: CliNext.payload.cloudBucketName,
+          }
+        }
+        break
       }
+      case 'bunny': {
+        await CliNext.prompt.ask([
+          {
+            name: 'cloudAccessKey',
+          },
+          {
+            name: 'bunnyPullZone',
+          },
+          {
+            name: 'bunnyStorageZoneName',
+          },
+        ])
+        cloud = {
+          ...cloud,
+          auth: {
+            accessKey: CliNext.payload.cloudAccessKey,
+            storageZoneName: CliNext.payload.bunnyStorageZoneName,
+            pullZone: CliNext.payload.bunnyPullZone,
+          }
+        }
+        break
+      }
+      default:
+        return
     }
 
     const { isValid, error } = await cloudOps.add({
       path: CliNext.payload.projectPath,
       cloud
     })
-
 
     const storeKey = `cloud_data`
 

@@ -13,3 +13,4 @@ platforms:
   - id: devto
 clouds:
   - id: minio
+  - id: bunny

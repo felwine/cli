@@ -6,7 +6,11 @@ export default ({
   defaultValue: 'npm',
   message: "Cloud CDN Type",
   choices: [{
-    name: 'minio',
+    name: 'Minio',
     value: 'minio'
+  },
+  {
+    name: 'Bunny CDN',
+    value: 'bunny'
   },]
 })
