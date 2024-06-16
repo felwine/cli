@@ -35,7 +35,10 @@ export default ({
         auth = JSON.parse(auth)
         return {
           ...platform,
-          auth
+          auth: {
+            ...(platform.auth ? platform.auth : {}),
+            ...auth
+          }
         }
       }))
     }

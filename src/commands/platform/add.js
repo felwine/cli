@@ -1,6 +1,5 @@
 import { platform } from "@felwine/sdk"
 // import { platform } from "../../../../sdk/src/index.js"
-
 export default ({
   _clinextType: "command",
   name: 'add',
@@ -15,8 +14,11 @@ export default ({
     {
       name: 'platformToken',
     },
+    {
+      name: 'platformEndpoint',
+    },
   ],
-  example: "$0 project new",
+  example: "$0 platform add",
   handler: async () => {
     await CliNext.prompt.ask([
       {
@@ -24,29 +26,62 @@ export default ({
       },
       {
         name: 'platformId',
-      },
-      {
-        name: 'platformToken',
-      },
+      }
     ])
 
-    const auth = {
-      token: CliNext.payload.platformToken,
+    let platformId = CliNext.payload.platformId
+    let auth = {}
+    let _platform = {}
+    switch (platformId) {
+      case 'custom': {
+        await CliNext.prompt.ask([
+          {
+            name: 'platformEndpoint',
+          },
+          {
+            name: 'platformToken',
+          },
+        ])
+        _platform = {
+          auth: {
+            token: CliNext.payload.platformToken,
+          },
+          endPoint: CliNext.payload.platformEndpoint,
+        }
+        break
+      }
+      default: {
+        await CliNext.prompt.ask([
+          {
+            name: 'platformToken',
+          },
+        ])
+        _platform = {
+          auth: {
+            token: CliNext.payload.platformToken,
+          },
+        }
+        break
+      }
     }
+
+
     const { isValid, error } = await platform.add({
       path: CliNext.payload.projectPath,
       platform: {
         id: CliNext.payload.platformId,
-        auth
+        ..._platform
       }
     })
 
-    await CliNext.store.save({
-      key: `platform_auth_${CliNext.payload.platformId}`,
-      value: JSON.stringify(auth)
-    })
 
     if (isValid) {
+      await CliNext.store.save({
+        key: `platform_auth_${CliNext.payload.platformId}`,
+        value: JSON.stringify(_platform.auth)
+      })
+
+
       console.log(`${CliNext.payload.platformId} has been added`)
     }
     else {

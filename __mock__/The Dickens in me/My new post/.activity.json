@@ -3,64 +3,12 @@
   "status": "published",
   "platforms": [
     {
-      "id": "medium",
+      "id": "custom",
       "sha": "984dc6b8959a96ad0784cc31a3a912f9d784d60a584700c43ae092660804a254",
       "post": {
-        "id": "87fea47a0304",
-        "title": "My new post",
-        "authorId": "1f2e4d8753ecbe41d0b7222dce14b405c1d06578618e225b0b9932cf767c924aa",
-        "url": "https://medium.com/@adoucoure/87fea47a0304",
-        "canonicalUrl": "",
-        "publishStatus": "draft",
-        "license": "all-rights-reserved",
-        "licenseUrl": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
-        "tags": []
+        "id": "r7GFTENUVf"
       },
-      "updatedAt": "2024-05-04T21:09:25.382Z"
-    },
-    {
-      "id": "devto",
-      "sha": "984dc6b8959a96ad0784cc31a3a912f9d784d60a584700c43ae092660804a254",
-      "status": "draft",
-      "post": {
-        "typeOf": "article",
-        "id": 1842761,
-        "title": "My new post",
-        "description": "A post by Aboubacar Doucoure",
-        "readablePublishDate": null,
-        "slug": "my-new-post-4nc4-temp-slug-726090",
-        "path": "/adoucoure/my-new-post-4nc4-temp-slug-726090",
-        "url": "https://dev.to/adoucoure/my-new-post-4nc4-temp-slug-726090",
-        "commentsCount": 0,
-        "publicReactionsCount": 0,
-        "collectionId": null,
-        "publishedTimestamp": "",
-        "positiveReactionsCount": 0,
-        "coverImage": null,
-        "socialImage": "https://dev.to/social_previews/article/1842761.png",
-        "canonicalUrl": "https://dev.to/adoucoure/my-new-post-4nc4-temp-slug-726090",
-        "createdAt": "2024-05-04T19:40:39Z",
-        "editedAt": null,
-        "crosspostedAt": null,
-        "publishedAt": null,
-        "lastCommentAt": "2017-01-01T05:00:00Z",
-        "readingTimeMinutes": 0,
-        "tagList": "",
-        "tags": [],
-        "bodyHtml": "",
-        "bodyMarkdown": "",
-        "user": {
-          "name": "Aboubacar Doucoure",
-          "username": "adoucoure",
-          "twitterUsername": null,
-          "githubUsername": null,
-          "userId": 1439662,
-          "websiteUrl": null,
-          "profileImage": "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1439662%2F1527b117-a4e7-4b4e-985a-00d839d1bac4.jpeg",
-          "profileImage_90": "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1439662%2F1527b117-a4e7-4b4e-985a-00d839d1bac4.jpeg"
-        }
-      },
-      "updatedAt": "2024-05-04T19:40:40.591Z"
+      "updatedAt": "2024-06-16T07:34:00.493Z"
     }
   ]
 }

@@ -11,5 +11,9 @@ export default ({
   }, {
     name: 'Dev.to',
     value: 'devto'
+  },
+  {
+    name: 'Custom',
+    value: 'custom'
   },]
 })

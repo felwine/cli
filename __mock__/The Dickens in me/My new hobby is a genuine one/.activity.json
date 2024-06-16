@@ -3,99 +3,19 @@
   "status": "published",
   "platforms": [
     {
-      "id": "medium",
-      "sha": "eb804127d649f865c6ed7bc5f2ee9e5b6e6167a5451c04de38d94eb5ded20ca7",
+      "id": "custom",
+      "sha": "1c9d1db2c1accaf40a892d0705937ef26f95d91eda5a47d3f58bfc2240abdad3",
       "post": {
-        "id": "c3fdc63166e7",
-        "title": "My new hobby is a genuine one and I know it, for now",
-        "authorId": "1f2e4d8753ecbe41d0b7222dce14b405c1d06578618e225b0b9932cf767c924aa",
-        "url": "https://medium.com/@adoucoure/c3fdc63166e7",
-        "canonicalUrl": "",
-        "publishStatus": "draft",
-        "license": "all-rights-reserved",
-        "licenseUrl": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
-        "tags": []
+        "id": "3FCaXYo6BE"
       },
-      "updatedAt": "2024-05-04T21:09:13.262Z"
-    },
-    {
-      "id": "devto",
-      "sha": "eb804127d649f865c6ed7bc5f2ee9e5b6e6167a5451c04de38d94eb5ded20ca7",
-      "status": "draft",
-      "post": {
-        "typeOf": "article",
-        "id": 1842760,
-        "title": "My new hobby is a genuine one and I know it, for now",
-        "description": "The hybrid media-finance company wants to monetize investigative journalism in the public interest....",
-        "readablePublishDate": null,
-        "slug": "my-new-hobby-is-a-genuine-one-and-i-know-it-2mjp-temp-slug-4416813",
-        "path": "/adoucoure/my-new-hobby-is-a-genuine-one-and-i-know-it-2mjp-temp-slug-4416813",
-        "url": "https://dev.to/adoucoure/my-new-hobby-is-a-genuine-one-and-i-know-it-2mjp-temp-slug-4416813",
-        "commentsCount": 0,
-        "publicReactionsCount": 0,
-        "collectionId": null,
-        "publishedTimestamp": "",
-        "positiveReactionsCount": 0,
-        "coverImage": null,
-        "socialImage": "https://dev.to/social_previews/article/1842760.png",
-        "canonicalUrl": "https://dev.to/adoucoure/my-new-hobby-is-a-genuine-one-and-i-know-it-2mjp-temp-slug-4416813",
-        "createdAt": "2024-05-04T19:40:21Z",
-        "editedAt": null,
-        "crosspostedAt": null,
-        "publishedAt": null,
-        "lastCommentAt": "2017-01-01T05:00:00Z",
-        "readingTimeMinutes": 2,
-        "tagList": "",
-        "tags": [],
-        "bodyHtml": "<p>The hybrid media-finance company wants to monetize investigative journalism in the public interest. Is it a visionary game changer or a cynical ploy?</p>\n\n<p><a href=\"https://res.cloudinary.com/practicaldev/image/fetch/s--qt-BcsqL--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://cdn.adoucoure.com/assets/_14b7d7104d272a6c52c1674c1419080d74476d08.webp\" class=\"article-body-image-wrapper\"><img src=\"https://res.cloudinary.com/practicaldev/image/fetch/s--qt-BcsqL--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://cdn.adoucoure.com/assets/_14b7d7104d272a6c52c1674c1419080d74476d08.webp\" alt=\"IMG\\_2114.PNG\" title=\"Malick is for the outsiders\" loading=\"lazy\"></a></p>\n\n<p>Five days before the launch of Hunterbrook Media, one of its founders, Sam Koppelman, sat outside an East Village coffee shop and played me a voice mail. “We fucking took those cocksuckers down,” a man could be heard saying, articulating each profanity in a crisp staccato. “Fuck those guys. We’re No. 1.” The voice, Koppelman told me, belonged to Mat Ishbia, the C.E.O. of United Wholesale Mortgage and the majority owner of the Phoenix Suns. He was allegedly speaking about his closest industry rival, Rocket Mortgage. Hunterbrook was about to publish an investigation alleging that Ishbia’s company had aggressively pressured independent mortgage brokers to send business to U.W.M., potentially saddling home buyers with hundreds of millions of dollars more in closing costs. But what made this first foray into investigative journalism notable had already occurred: in advance of the story’s publication, Hunterbrook Media’s conjoined twin, Hunterbrook Capital, a hedge fund, had shorted U.W.M. stock and gone long on Rocket Mortgage.</p>\n\n<p><a href=\"https://res.cloudinary.com/practicaldev/image/fetch/s--VLPDuaAT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://cdn.adoucoure.com/assets/4eff7f66c247fa7595c440ba54b8b67e3a96c1266080cffc1d918ce3ce57e3ea.svg\" class=\"article-body-image-wrapper\"><img src=\"https://res.cloudinary.com/practicaldev/image/fetch/s--VLPDuaAT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://cdn.adoucoure.com/assets/4eff7f66c247fa7595c440ba54b8b67e3a96c1266080cffc1d918ce3ce57e3ea.svg\" alt=\"\" loading=\"lazy\"></a></p>\n\n<h2>\n  <a name=\"que-penser-de-la-fin-du-r%C3%A8gne-\" href=\"#que-penser-de-la-fin-du-r%C3%A8gne-\">\n  </a>\n  Que penser de la fin du règne ?\n</h2>\n\n<p>“Nathaniel and Sam have a pretty ridiculous network,” Matthew Termine, one of the Hunterbrook reporters on the U.W.M. investigation, told me. E-mails that Koppelman wrote to the chair of Sony Entertainment about his application to Harvard appeared in the 2014 <a href=\"https://www.newyorker.com/magazine/2021/04/26/the-incredible-rise-of-north-koreas-hacking-army\">Sony Pictures leak</a>, as did a note to the school on his behalf from Matt Damon. (Koppelman’s father co-wrote “Rounders” and “Ocean’s Thirteen.”) For a time, he dated the “Euphoria” star Maude Apatow. Horwitz, for his part, once wrote about a series of conversations he had with the Theranos founder <a href=\"https://www.newyorker.com/magazine/2014/12/15/blood-simpler\">Elizabeth Holmes</a> as her life and company crumbled. Hunterbrook’s advisers include Paul Steiger, the founder of ProPublica, and Daniel Okrent, the first public editor of the <em>Times</em>. Former <em>Wall Street Journal</em> editor-in-chief Matt Murray and the financial journalist Bethany McLean gave notes on the U.W.M. investigation before publication.</p>\n\n<p><a href=\"https://res.cloudinary.com/practicaldev/image/fetch/s--Ay5CCqNt--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://cdn.adoucoure.com/assets/_1fb5b4f7e9965d9e5ee3bd521fdb03a45bdbb4f2.webp\" class=\"article-body-image-wrapper\"><img src=\"https://res.cloudinary.com/practicaldev/image/fetch/s--Ay5CCqNt--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://cdn.adoucoure.com/assets/_1fb5b4f7e9965d9e5ee3bd521fdb03a45bdbb4f2.webp\" alt=\"\" loading=\"lazy\"></a></p>\n\n<p>There are about a thousand real-estate developers in New York City. Nathan Berman is one of them, and he’s become rich doing it. But, he told me recently, “I never built a building from scratch, and never wanted to.” Instead, Berman, who is sixty-four, specializes in taking existing structures and converting them into apartments, a useful trick in a city that’s always starved for housing—and newly wary of the five-day-a-week office routine.</p>\n\n",
-        "bodyMarkdown": "The hybrid media-finance company wants to monetize investigative journalism in the public interest. Is it a visionary game changer or a cynical ploy?\n\n![IMG\\_2114.PNG](https://cdn.adoucoure.com/assets/_14b7d7104d272a6c52c1674c1419080d74476d08.webp \"Malick is for the outsiders\")\n\nFive days before the launch of Hunterbrook Media, one of its founders, Sam Koppelman, sat outside an East Village coffee shop and played me a voice mail. “We fucking took those cocksuckers down,” a man could be heard saying, articulating each profanity in a crisp staccato. “Fuck those guys. We’re No. 1.” The voice, Koppelman told me, belonged to Mat Ishbia, the C.E.O. of United Wholesale Mortgage and the majority owner of the Phoenix Suns. He was allegedly speaking about his closest industry rival, Rocket Mortgage. Hunterbrook was about to publish an investigation alleging that Ishbia’s company had aggressively pressured independent mortgage brokers to send business to U.W.M., potentially saddling home buyers with hundreds of millions of dollars more in closing costs. But what made this first foray into investigative journalism notable had already occurred: in advance of the story’s publication, Hunterbrook Media’s conjoined twin, Hunterbrook Capital, a hedge fund, had shorted U.W.M. stock and gone long on Rocket Mortgage.\n\n![](https://cdn.adoucoure.com/assets/4eff7f66c247fa7595c440ba54b8b67e3a96c1266080cffc1d918ce3ce57e3ea.svg)\n\n## Que penser de la fin du règne ?\n\n“Nathaniel and Sam have a pretty ridiculous network,” Matthew Termine, one of the Hunterbrook reporters on the U.W.M. investigation, told me. E-mails that Koppelman wrote to the chair of Sony Entertainment about his application to Harvard appeared in the 2014 [Sony Pictures leak](https://www.newyorker.com/magazine/2021/04/26/the-incredible-rise-of-north-koreas-hacking-army), as did a note to the school on his behalf from Matt Damon. (Koppelman’s father co-wrote “Rounders” and “Ocean’s Thirteen.”) For a time, he dated the “Euphoria” star Maude Apatow. Horwitz, for his part, once wrote about a series of conversations he had with the Theranos founder [Elizabeth Holmes](https://www.newyorker.com/magazine/2014/12/15/blood-simpler) as her life and company crumbled. Hunterbrook’s advisers include Paul Steiger, the founder of ProPublica, and Daniel Okrent, the first public editor of the *Times*. Former *Wall Street Journal* editor-in-chief Matt Murray and the financial journalist Bethany McLean gave notes on the U.W.M. investigation before publication.\n\n![](https://cdn.adoucoure.com/assets/_1fb5b4f7e9965d9e5ee3bd521fdb03a45bdbb4f2.webp)\n\nThere are about a thousand real-estate developers in New York City. Nathan Berman is one of them, and he’s become rich doing it. But, he told me recently, “I never built a building from scratch, and never wanted to.” Instead, Berman, who is sixty-four, specializes in taking existing structures and converting them into apartments, a useful trick in a city that’s always starved for housing—and newly wary of the five-day-a-week office routine.\n",
-        "user": {
-          "name": "Aboubacar Doucoure",
-          "username": "adoucoure",
-          "twitterUsername": null,
-          "githubUsername": null,
-          "userId": 1439662,
-          "websiteUrl": null,
-          "profileImage": "https://media.dev.to/cdn-cgi/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1439662%2F1527b117-a4e7-4b4e-985a-00d839d1bac4.jpeg",
-          "profileImage_90": "https://media.dev.to/cdn-cgi/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1439662%2F1527b117-a4e7-4b4e-985a-00d839d1bac4.jpeg"
-        }
-      },
-      "updatedAt": "2024-05-04T20:56:53.585Z",
+      "updatedAt": "2024-06-16T07:22:35.609Z",
+      "status": "published",
       "error": {
-        "message": "Request failed with status code 401",
+        "message": "connect ECONNREFUSED ::1:80",
         "name": "Error",
-        "stack": "Error: Request failed with status code 401\n    at createError (/Users/anak/YourouNak/development/felwine/sdk/node_modules/devto-nodejs-sdk/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/Users/anak/YourouNak/development/felwine/sdk/node_modules/devto-nodejs-sdk/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/Users/anak/YourouNak/development/felwine/sdk/node_modules/devto-nodejs-sdk/node_modules/axios/lib/adapters/http.js:269:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
-        "config": {
-          "url": "/articles/1842760",
-          "method": "put",
-          "data": "{\"article\":{\"title\":\"My new hobby is a genuine one and I know it, for now\",\"body_markdown\":\"The hybrid media-finance company wants to monetize investigative journalism in the public interest. Is it a visionary game changer or a cynical ploy?\\n\\n![IMG\\\\_2114.PNG](https://cdn.adoucoure.com/assets/_14b7d7104d272a6c52c1674c1419080d74476d08.webp \\\"Malick is for the outsiders\\\")\\n\\nFive days before the launch of Hunterbrook Media, one of its founders, Sam Koppelman, sat outside an East Village coffee shop and played me a voice mail. “We fucking took those cocksuckers down,” a man could be heard saying, articulating each profanity in a crisp staccato. “Fuck those guys. We’re No. 1.” The voice, Koppelman told me, belonged to Mat Ishbia, the C.E.O. of United Wholesale Mortgage and the majority owner of the Phoenix Suns. He was allegedly speaking about his closest industry rival, Rocket Mortgage. Hunterbrook was about to publish an investigation alleging that Ishbia’s company had aggressively pressured independent mortgage brokers to send business to U.W.M., potentially saddling home buyers with hundreds of millions of dollars more in closing costs. But what made this first foray into investigative journalism notable had already occurred: in advance of the story’s publication, Hunterbrook Media’s conjoined twin, Hunterbrook Capital, a hedge fund, had shorted U.W.M. stock and gone long on Rocket Mortgage.\\n\\n![](https://cdn.adoucoure.com/assets/4eff7f66c247fa7595c440ba54b8b67e3a96c1266080cffc1d918ce3ce57e3ea.svg)\\n\\n## Que penser de la fin du règne ?\\n\\n“Nathaniel and Sam have a pretty ridiculous network,” Matthew Termine, one of the Hunterbrook reporters on the U.W.M. investigation, told me. E-mails that Koppelman wrote to the chair of Sony Entertainment about his application to Harvard appeared in the 2014 [Sony Pictures leak](https://www.newyorker.com/magazine/2021/04/26/the-incredible-rise-of-north-koreas-hacking-army), as did a note to the school on his behalf from Matt Damon. (Koppelman’s father co-wrote “Rounders” and “Ocean’s Thirteen.”) For a time, he dated the “Euphoria” star Maude Apatow. Horwitz, for his part, once wrote about a series of conversations he had with the Theranos founder [Elizabeth Holmes](https://www.newyorker.com/magazine/2014/12/15/blood-simpler) as her life and company crumbled. Hunterbrook’s advisers include Paul Steiger, the founder of ProPublica, and Daniel Okrent, the first public editor of the *Times*. Former *Wall Street Journal* editor-in-chief Matt Murray and the financial journalist Bethany McLean gave notes on the U.W.M. investigation before publication.\\n\\n![](https://cdn.adoucoure.com/assets/_1fb5b4f7e9965d9e5ee3bd521fdb03a45bdbb4f2.webp)\\n\\nThere are about a thousand real-estate developers in New York City. Nathan Berman is one of them, and he’s become rich doing it. But, he told me recently, “I never built a building from scratch, and never wanted to.” Instead, Berman, who is sixty-four, specializes in taking existing structures and converting them into apartments, a useful trick in a city that’s always starved for housing—and newly wary of the five-day-a-week office routine.\\n\",\"published\":false,\"tags\":\"\"}}",
-          "headers": {
-            "Accept": "application/json, text/plain, */*",
-            "Content-Type": "application/json",
-            "Api-Key": "276c9fc8eb455c008d0f126cf436d6fac8b6987a44caac8e33765b49b4929daf3",
-            "User-Agent": "axios/0.21.4",
-            "Content-Length": 3253
-          },
-          "baseURL": "https://dev.to/api",
-          "transformRequest": [
-            null,
-            null
-          ],
-          "transformResponse": [
-            null,
-            null
-          ],
-          "timeout": 0,
-          "xsrfCookieName": "XSRF-TOKEN",
-          "xsrfHeaderName": "X-XSRF-TOKEN",
-          "maxContentLength": -1,
-          "maxBodyLength": -1,
-          "transitional": {
-            "silentJSONParsing": true,
-            "forcedJSONParsing": true,
-            "clarifyTimeoutError": false
-          }
-        }
+        "stack": "Error: connect ECONNREFUSED ::1:80\n    at Function.from (file:///Users/anak/YourouNak/development/felwine/cli/node_modules/axios/lib/core/AxiosError.js:89:14)\n    at RedirectableRequest.handleRequestError (file:///Users/anak/YourouNak/development/felwine/cli/node_modules/axios/lib/adapters/http.js:610:25)\n    at RedirectableRequest.emit (node:events:517:28)\n    at ClientRequest.<anonymous> (/Users/anak/YourouNak/development/felwine/cli/node_modules/follow-redirects/index.js:38:24)\n    at ClientRequest.emit (node:events:517:28)\n    at Socket.socketErrorListener (node:_http_client:501:9)\n    at Socket.emit (node:events:517:28)\n    at emitErrorNT (node:internal/streams/destroy:151:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (file:///Users/anak/YourouNak/development/felwine/cli/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Axios.request (file:///Users/anak/YourouNak/development/felwine/cli/node_modules/axios/lib/core/Axios.js:40:14)\n    at async Axios.request (file:///Users/anak/YourouNak/development/felwine/cli/node_modules/axios/lib/core/Axios.js:40:14)\n    at async default (file:///Users/anak/YourouNak/development/felwine/cli/node_modules/@felwine/sdk/src/lib/platformLibrary/custom/sync/published.js:37:18)\n    at async default (file:///Users/anak/YourouNak/development/felwine/cli/node_modules/@felwine/sdk/src/post/sync/lib/perform.js:78:16)\n    at async Module.default (file:///Users/anak/YourouNak/development/felwine/cli/node_modules/@felwine/sdk/src/post/update/path.js:29:5)\n    at async Object.handler (file:///Users/anak/YourouNak/development/felwine/cli/src/commands/sync.js:61:5)",
+        "code": "ECONNREFUSED",
+        "status": null
       }
     }
   ]

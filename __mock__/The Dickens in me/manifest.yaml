@@ -9,8 +9,8 @@ author:
   id: ""
   name: ""
 platforms:
-  - id: medium
-  - id: devto
+  - id: custom
+    endPoint: http://localhost:1394/felwine
 clouds:
   - id: minio
   - id: bunny
