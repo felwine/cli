@@ -27,7 +27,7 @@ export default ({
       platforms = await Promise.all(platforms.map(async platform => {
 
         let auth = await CliNext.store.get({
-          key: `platform_auth_${platform.id}`,
+          key: `platform_auth_${platform.type}_${platform.id}`,
         })
         if (!auth) {
           return null

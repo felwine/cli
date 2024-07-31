@@ -6,9 +6,17 @@
       "id": "custom",
       "sha": "984dc6b8959a96ad0784cc31a3a912f9d784d60a584700c43ae092660804a254",
       "post": {
-        "id": "r7GFTENUVf"
+        "id": "dqmr75wCax"
       },
-      "updatedAt": "2024-06-16T07:34:00.493Z"
+      "updatedAt": "2024-06-16T13:40:40.828Z",
+      "status": "failed",
+      "error": {
+        "message": "Request failed with status code 500",
+        "name": "AxiosError",
+        "stack": "AxiosError: Request failed with status code 500\n    at settle (file:///Users/anak/YourouNak/development/felwine/cli/node_modules/axios/lib/core/settle.js:19:12)\n    at IncomingMessage.handleStreamEnd (file:///Users/anak/YourouNak/development/felwine/cli/node_modules/axios/lib/adapters/http.js:589:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (file:///Users/anak/YourouNak/development/felwine/cli/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async default (file:///Users/anak/YourouNak/development/felwine/cli/node_modules/@felwine/sdk/src/lib/platformLibrary/custom/sync/draft.js:36:18)\n    at async default (file:///Users/anak/YourouNak/development/felwine/cli/node_modules/@felwine/sdk/src/post/sync/lib/perform.js:79:16)\n    at async Module.default (file:///Users/anak/YourouNak/development/felwine/cli/node_modules/@felwine/sdk/src/post/update/path.js:29:5)\n    at async Object.handler (file:///Users/anak/YourouNak/development/felwine/cli/src/commands/sync.js:61:5)",
+        "code": "ERR_BAD_RESPONSE",
+        "status": 500
+      }
     }
   ]
 }

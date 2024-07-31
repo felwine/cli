@@ -9,6 +9,9 @@ export default ({
       name: 'projectPath',
     },
     {
+      name: 'platformType'
+    },
+    {
       name: 'platformId',
     },
     {
@@ -28,13 +31,16 @@ export default ({
         name: 'projectPath',
       },
       {
+        name: 'platformType',
+      },
+      {
         name: 'platformId',
       }
     ])
 
-    let platformId = CliNext.payload.platformId
+    let platformType = CliNext.payload.platformType
     let _platform = {}
-    switch (platformId) {
+    switch (platformType) {
       case 'custom': {
         await CliNext.prompt.ask([
           {
@@ -71,10 +77,10 @@ export default ({
       }
     }
 
-
     const { isValid, error } = await platform.add({
       path: CliNext.payload.projectPath,
       platform: {
+        type: CliNext.payload.platformType,
         id: CliNext.payload.platformId,
         ..._platform
       }
@@ -83,12 +89,12 @@ export default ({
 
     if (isValid) {
       await CliNext.store.save({
-        key: `platform_auth_${CliNext.payload.platformId}`,
+        key: `platform_auth_${CliNext.payload.platformType}_${CliNext.payload.platformId}`,
         value: JSON.stringify(_platform.auth)
       })
 
 
-      console.log(`${CliNext.payload.platformId} has been added`)
+      console.log(`${CliNext.payload.platformType} has been added`)
     }
     else {
       console.log(`Could not add platform: ${error.message}`)
