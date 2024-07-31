@@ -12,10 +12,13 @@ export default ({
       name: 'platformId',
     },
     {
-      name: 'platformToken',
+      name: 'platformEndpoint',
     },
     {
-      name: 'platformEndpoint',
+      name: 'platformAccessKey',
+    },
+    {
+      name: 'platformSecretKey',
     },
   ],
   example: "$0 platform add",
@@ -30,7 +33,6 @@ export default ({
     ])
 
     let platformId = CliNext.payload.platformId
-    let auth = {}
     let _platform = {}
     switch (platformId) {
       case 'custom': {
@@ -39,12 +41,16 @@ export default ({
             name: 'platformEndpoint',
           },
           {
-            name: 'platformToken',
+            name: 'platformAccessKey',
+          },
+          {
+            name: 'platformSecretKey',
           },
         ])
         _platform = {
           auth: {
-            token: CliNext.payload.platformToken,
+            accessKey: CliNext.payload.platformAccessKey,
+            secretKey: CliNext.payload.platformSecretKey,
           },
           endPoint: CliNext.payload.platformEndpoint,
         }
