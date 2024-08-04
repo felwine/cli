@@ -4,7 +4,7 @@ import { platform, post } from "@felwine/sdk"
 export default ({
   _clinextType: "command",
   name: 'sync',
-  description: 'Sync a project',
+  description: 'Sync a project to a remote platform.',
   questions: [
     {
       name: 'projectPath',
