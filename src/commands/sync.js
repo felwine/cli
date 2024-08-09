@@ -1,4 +1,4 @@
-import { platform, post } from "@felwine/sdk"
+import { platform, post, cloud as cloudOps } from "@felwine/sdk"
 // import { platform, post } from "../../../sdk/src/index.js"
 
 export default ({
@@ -23,35 +23,14 @@ export default ({
       path: CliNext.payload.projectPath,
     })
 
-    if (platforms) {
-      platforms = await Promise.all(platforms.map(async platform => {
-
-        let auth = await CliNext.store.get({
-          key: `platform_auth_${platform.type}_${platform.id}`,
-        })
-        if (!auth) {
-          return null
-        }
-        auth = JSON.parse(auth)
-        return {
-          ...platform,
-          auth: {
-            ...(platform.auth ? platform.auth : {}),
-            ...auth
-          }
-        }
-      }))
-    }
-
-    let clouds = await CliNext.store.get({
-      key: `cloud_data`,
+    let clouds = await cloudOps.list({
+      path: CliNext.payload.projectPath,
     })
 
     if (!clouds) {
       console.log('Please add a cloud CDN host. felwine cloud add')
       return
     }
-    clouds = JSON.parse(clouds)
 
     const settings = {
       platforms,

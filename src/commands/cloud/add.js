@@ -30,6 +30,9 @@ export default ({
     {
       name: 'bunnyStorageZoneName',
     },
+    // {
+    //   name: 'storageType',
+    // },
   ],
   example: "$0 cloud new",
   handler: async () => {
@@ -100,25 +103,7 @@ export default ({
 
     const { isValid, error } = await cloudOps.add({
       path: CliNext.payload.projectPath,
-      cloud
-    })
-
-    const storeKey = `cloud_data`
-
-    let clouds = await CliNext.store.get({ key: storeKey })
-    if (!clouds) {
-      clouds = []
-    }
-    else {
-      clouds = JSON.parse(clouds)
-    }
-
-    clouds = clouds.filter(a => a.id !== cloud.id)
-    clouds.push(cloud)
-
-    await CliNext.store.save({
-      key: storeKey,
-      value: JSON.stringify(clouds)
+      cloud,
     })
 
     if (isValid) {

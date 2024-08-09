@@ -23,6 +23,9 @@ export default ({
     {
       name: 'platformSecretKey',
     },
+    // {
+    //   name: 'storageType',
+    // },
   ],
   example: "$0 platform add",
   handler: async () => {
@@ -76,6 +79,11 @@ export default ({
         break
       }
     }
+    // await CliNext.prompt.ask([
+    //   {
+    //     name: 'storageType',
+    //   },
+    // ])
 
     const { isValid, error } = await platform.add({
       path: CliNext.payload.projectPath,
@@ -83,21 +91,14 @@ export default ({
         type: CliNext.payload.platformType,
         id: CliNext.payload.platformId,
         ..._platform
-      }
+      },
     })
 
-
     if (isValid) {
-      await CliNext.store.save({
-        key: `platform_auth_${CliNext.payload.platformType}_${CliNext.payload.platformId}`,
-        value: JSON.stringify(_platform.auth)
-      })
-
-
       console.log(`${CliNext.payload.platformType} has been added`)
     }
     else {
       console.log(`Could not add platform: ${error.message}`)
     }
-  },
+  }
 })
