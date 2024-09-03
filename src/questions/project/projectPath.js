@@ -10,7 +10,7 @@ export default ({
   onlyShowValid: false,
   enableGoUpperDirectory: true,
   hideRoot: false,
-  hideChildrenOfValid: true,
+  hideChildrenOfValid: false,
   hideValidationErrorMessage: true,
   validators: [{
     id: 'isFolderProject'
