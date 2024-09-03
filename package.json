@@ -62,7 +62,7 @@
   "dependencies": {
     "@clinext/chunks-extension": "^1.1.0",
     "@clinext/sdk": "^2.6.0",
-    "@felwine/sdk": "^1.6.13",
+    "@felwine/sdk": "^1.6.16",
     "axios": "^1.7.3",
     "chalk": "^5.3.0",
     "dotenv": "^16.0.1",
