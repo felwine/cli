@@ -65,5 +65,7 @@ export default ({
     console.log('================')
     console.log('Finished syncing project ✅')
     console.log('================')
+
+    return true
   },
 })
