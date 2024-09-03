@@ -9,8 +9,10 @@ author:
   id: ""
   name: ""
 platforms:
-  - id: custom
-    endPoint: http://localhost:1394/felwine
-clouds:
-  - id: minio
-  - id: bunny
+  - type: custom
+    id: mycustomblog.com
+    auth:
+      accessKey: 09335c008d0f126cf436d6fac8b6987a44caac8e33765b49b4929daf3
+      secretKey: 44355c008d0f126cf436d6fac8b6987a44caac8e33765b49b4929daf3
+    endPoint: http://localhost:1394/v1/felwine
+clouds: []
