@@ -39,8 +39,7 @@ export default ({
     // )
 
     if (!clouds || !clouds.length) {
-      console.log('Please add a cloud CDN host. felwine cloud add')
-      return
+      return { message: 'Please add a cloud CDN host. felwine cloud add', success: false }
     }
 
     if (!platforms || !platforms.length) {
