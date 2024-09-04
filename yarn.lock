@@ -1052,10 +1052,10 @@
   resolved "https://registry.yarnpkg.com/@clinext/chunks-extension/-/chunks-extension-1.1.0.tgz#5355874eb1dfcdc2ad3906bc5470c31efe26b07b"
   integrity sha512-VJYN24mFPNfZw+tW0qMZ4nnhjGfSKjyAOpoXhXzoBJdUNeZwVvtRKnCFQlBMlPVt0V4948bf1OcUMfsGpHEdUw==
 
-"@clinext/sdk@^2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@clinext/sdk/-/sdk-2.6.1.tgz#517320b03edec08879f2aef311b399799d130557"
-  integrity sha512-TwAOUYUntf3GETUOhwPt3yABW2rjeqkB8D14IPt0unRc2SzWCIA4kRbCrkc9sPCApJJNmwM+mCxZ9bS69iQ21A==
+"@clinext/sdk@^2.6.3":
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/@clinext/sdk/-/sdk-2.6.3.tgz#aee0c2eb83feeb3f48c450f2e1755357afa49f86"
+  integrity sha512-qLr6s5QEnI09uWELSsrSGmHTBMKCvoHA/vbR5jkAB4+Ie+RCcpUJKthSIGVZTiwgS0A59xxAwSDFigmPt7b+GQ==
   dependencies:
     "@inkjs/ui" "^1.0.0"
     axios "^1.6.1"
