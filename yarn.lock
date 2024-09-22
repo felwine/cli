@@ -1127,10 +1127,10 @@
   resolved "https://registry.yarnpkg.com/@felwine/medium-api/-/medium-api-1.1.1.tgz#76682e60672924cfa2fbc7ea5db5bcba68dad1bd"
   integrity sha512-52n885skCTkGc4yBKlkj1gE4wEZxz1Xvqo0u4EMlwCC6/ODlz1fHJ+sT9cwxNitKoDBIjGLkoHU8XrwwYpiilA==
 
-"@felwine/sdk@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@felwine/sdk/-/sdk-1.7.0.tgz#2af3d4134afd54f19ef65a6a2d78408f06d2af81"
-  integrity sha512-ANAS0IdcCJH8SV6zdSjuw6CxD3TGbhNOc91wGGL7OGnWv/TmEfZ060BdJd4smpEo0ZA1hPH+q7mS9Y1RgxeFrw==
+"@felwine/sdk@^1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@felwine/sdk/-/sdk-1.8.1.tgz#17c0e51b2974f73bfff630c14dcc2e1133384cee"
+  integrity sha512-CD2SK+qq+U/fBMAIYHAw9pNA0qQdPdj5ef0q6KEag4rewnCi0VnKkcKNurTExn7c9wOcHOvy2CJWoGiBjMtP9g==
   dependencies:
     "@felwine/medium-api" "^1.1.0"
     "@microflash/remark-figure-caption" "^2.0.2"
@@ -1141,6 +1141,7 @@
     dotenv "^16.0.1"
     ejs "^3.1.9"
     fast-glob "^3.3.2"
+    frontmatter "^0.0.3"
     image-downloader "^4.3.0"
     image-to-base64 "^2.2.0"
     is-local "^0.1.0"
@@ -1172,7 +1173,7 @@
     remark-preset-lint-recommended "^7.0.0"
     remark-rehype "^11.1.0"
     remark-stringify "^11.0.0"
-    sharp "^0.33.4"
+    sharp "^0.33.5"
     strip-markdown "^6.0.0"
     tiny-parse-argv "^2.4.0"
     twitter "^1.7.1"
@@ -6052,6 +6053,13 @@ from2@^2.3.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
+frontmatter@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/frontmatter/-/frontmatter-0.0.3.tgz#160e7533e0540fc9c0edcc48083dfd7aa1e6c6ec"
+  integrity sha512-mp/uBpxwnfYSl3cjtESYHuOvNWfYEwUjhFjXYbX9zA5b/dAX7qvON3sQQmvnOMUpi21GVG7RQ/ODX0Te28QiOw==
+  dependencies:
+    js-yaml "^3.4.6"
+
 fs-exists-sync@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/fs-exists-sync/-/fs-exists-sync-0.1.0.tgz#982d6893af918e72d08dec9e8673ff2b5a8d6add"
@@ -8259,7 +8267,7 @@ js-string-escape@1.0.1:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-js-yaml@^3.13.1:
+js-yaml@^3.13.1, js-yaml@^3.4.6:
   version "3.14.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
   integrity sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==
@@ -12951,7 +12959,7 @@ settings-store@^1.4.1:
   resolved "https://registry.yarnpkg.com/settings-store/-/settings-store-1.4.1.tgz#4e561bcbcae781887a56f00e962872be09238b18"
   integrity sha512-AJ7EYdaL9TksOStjablB/6EqOJN8ZW97Kp3Vi+YuPDoegRuCJvsbZolxoqHpgSFG2Jc8trQGF+0RPeN5My2G/A==
 
-sharp@^0.33.4:
+sharp@^0.33.4, sharp@^0.33.5:
   version "0.33.5"
   resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.33.5.tgz#13e0e4130cc309d6a9497596715240b2ec0c594e"
   integrity sha512-haPVm1EkS9pgvHrQ/F3Xy+hgcuMV0Wm9vfIBSiwZ05k+xgb0PkBQpGsAA/oWdDobNaZTH5ppvHtzCFbnSEwHVw==
