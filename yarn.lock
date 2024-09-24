@@ -1127,10 +1127,10 @@
   resolved "https://registry.yarnpkg.com/@felwine/medium-api/-/medium-api-1.1.1.tgz#76682e60672924cfa2fbc7ea5db5bcba68dad1bd"
   integrity sha512-52n885skCTkGc4yBKlkj1gE4wEZxz1Xvqo0u4EMlwCC6/ODlz1fHJ+sT9cwxNitKoDBIjGLkoHU8XrwwYpiilA==
 
-"@felwine/sdk@^1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@felwine/sdk/-/sdk-1.9.0.tgz#5054e81f096b87a25e69f785738efecebebc6e65"
-  integrity sha512-/rlgCQdhuiZ7vTRDfk7BM2air+poOD5KJCdbBlP2tX4lhFmy3P0R7fGps3x2GzCpLdKv/OAtNze9EBJws8Ad5Q==
+"@felwine/sdk@^1.9.1":
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@felwine/sdk/-/sdk-1.9.1.tgz#33cde3af4cdf8fc4d0814b036ee20d4c61940b15"
+  integrity sha512-WqDx6+TQqXVV1OAHyo427BWmJlD6kzE51aMjcKOLQmfOSeNRjqGI2YH5tufohIzCvx3GQWpJd+MeDBBjSAO5/A==
   dependencies:
     "@felwine/medium-api" "^1.1.0"
     "@microflash/remark-figure-caption" "^2.0.2"
